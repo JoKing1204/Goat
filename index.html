@@ -3,20 +3,33 @@
     <head>
         <title>Mike Tyson the goat?</title>
         <style>
+            div.scroll-container {
+                background-color: black;
+                overflow: scroll;
+                white-space: nowrap;
+                padding: 10px;
+            }
+
+            div.scroll-container img {
+                padding: 10px;
+}
             body{
                 background-color: black;
+                
             }
             p{
                 font-family:Verdana, Geneva, Tahoma, sans-serif;
                 font-size:20px;
-                color:white
+                color:white;
+                margin:100px;
+                
                 
             }
             h1{
                 font-family:Verdana, Geneva, Tahoma, sans-serif;
                 color: yellow;
-                background-color: black;
-                border:20px solid black;
+                background-color: transparent;
+                
                 text-align: center;
                 font-size: 60px;
                 
@@ -24,33 +37,115 @@
             h3{
                 font-family:Verdana, Geneva, Tahoma, sans-serif;
                 color: yellow;
-                background-color: black;
-                border:20px solid black;
+                background-color: transparent;
+                border:20px groove black;
                 text-align: center;
                 font-size:30px
             
             }
             
             table{
-                background-color: black;
-                border:4px;
-                border-spacing:4px;
-                color:white;
-                margin-left:200px;
-                border-color:white
+                background-color: transparent;
+                border:7px;
                 
+                color:white;
+                
+                border-color:white;
+                
+                
+            }
+
+            td{ 
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 18px;
+                border: 7px outset white;
+                                
+                
+            } 
+
+            html{
+                scroll-behavior: smooth;
+                }
+                
+            a:link{
+                color:hotpink;
+                font-size: 25px;
+                text-decoration: underline;
+                margin-left:175px
+                
+            }
+            a:hover{
+                color:yellow;
+                text-decoration:none;
+            }
+            a:visited{
+                color:White;
+            }
+            a:active{
+                color:yellow
             }
 
         </style>
     </head>
     <body>
+
+        <header>
         <h1>Mike Tyson is the Goat</h1>
-        <p>Mike Tyson is an American former professional boxer. He is considered to be one of the greatest heavyweight boxers of all time. Tyson was known for his ferocious and intimidating boxing style2and was ranked 16th on The Ring magazine's list of 100 greatest punchers of all time. He was also known as "The Baddest Man on the Planet". Tyson has gone on to appear in several films and a Broadway show on his life, become a best-selling author and an entrepreneur.</p>
-        <iframe width="300" height="200" src="https://www.youtube.com/embed/kknVfOJZ1w0?si=mWYvKtRBcFtx353l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <iframe style="float: right;" width="300" height="200" src="https://www.youtube.com/embed/aJ-AUIkBX_Y?si=JBUo_g_bCkRFIj60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <table>
+        <nav>
+            <table>
+                <tr>
+                    <td><a href="#about" style="padding-right:30px; margin-left:30px">About</a></td>
+                    <td><a href="#accomplishments" style="margin-left:30px; padding-right:30px">Accomplishments</a></td>
+                    <td><a href="#videos" style="padding-right:30px;margin-left:30px">Videos</a></td>
+                </tr>
+            </table>
+        </nav>
+        </header>
+        <section id="about">
+            <h3>About</h3>
+            <p>Mike Tyson is an American former professional boxer. He is considered to be one of the greatest heavyweight boxers of all time. Tyson was known for his ferocious and intimidating boxing style2and was ranked 16th on The Ring magazine's list of 100 greatest punchers of all time. He was also known as "The Baddest Man on the Planet". Tyson has gone on to appear in several films and a Broadway show on his life, become a best-selling author and an entrepreneur.</p>
+            
+            <a href="https://www.britannica.com/biography/Mike-Tyson" target="_blank">Mike Tyson's Biography</a>
+            <a href="https://www.espn.com/boxing/story/_/id/30379155/the-long-winding-road-brought-mike-tyson-back-boxing" target="_blank">Mike Tyson vs. Roy Jones Jr. in 2020 & his backstory</a>
+            <div class="scroll-container">
+                <img src="images/Fight.jpg" alt="Knock Down" style="width:500px;height:450px">
+                <img src="images/Mike.jpg" alt="The goat" style="width:500px;height:450px">
+                <img src="images/Punch.jpg" alt="Everyone has a plan, until they get punched in the mouth." style="width:500px;height:450px">
+                <img src="images/the look.jpg" alt="The look." style="width:500px;height:450px">
+              </div>
+            
+        </section>
+        <section id="accomplishments">
             <h3>Accomplishments</h3>
-            <td>Youngest Heavyweight Champion by age 20 in 1986</td>
-        </table>
+            <table>
+                <tr>
+                    <td>1981</td>
+                    <td style="padding-right:200px; padding-top:15px;">He won gold medals at the 1981 and 1982 Junior Olympic Games, defeating Joe Cortez and Kelton Brown.</td>
+                </tr>
+                <tr>
+                    <td>1986</td>
+                    <td>He was the Youngest Heavyweight Champion by age 20 in 1986.</td>
+                </tr>
+                <tr>
+                    <td>1987</td>
+                    <td>He won the WBA, WBC, and IBF heavyweight titles and unified them in 1987 by defeating James Smith and Tony Tucker.</td>
+                </tr>
+                <tr>
+                    <td>1988</td>
+                    <td style="padding-right:200px;padding-top:15px;">He knocked out Michael Spinks in 91 seconds and became the lineal champion in 1988.</td>
+                </tr>
+                <tr>
+                    <td>1986-1990</td>
+                    <td style="padding-right:200px; padding-top:15px;">He defended the world heavyweight championship nine times, including victories over Larry Holmes and Frank Bruno.</td>
+                </tr>
+               
+        
+            </table>
+        </section>
+        <section id="videos">
+            <h3>Videos</h3>
+            <iframe  style="padding-left: 250px;" width="700" height="400" src="https://www.youtube.com/embed/kknVfOJZ1w0?si=mWYvKtRBcFtx353l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe style="padding-left:250px;" width="700" height="400" src="https://www.youtube.com/embed/aJ-AUIkBX_Y?si=JBUo_g_bCkRFIj60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
     </body>
 </html>
